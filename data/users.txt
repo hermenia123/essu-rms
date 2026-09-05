@@ -1,0 +1,3 @@
+# ID|username|password|name
+USR-20260825-05087C7A|admin|admin123|ESSU Administrator
+USR-20260826-USER001|testuser|User@12345|Test User

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESSU — Sign In</title>
+<link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+<div class="page">
+<section class="brand"><span class="ambient" aria-hidden="true"></span>
+<img class="logo" src="./images/essu-logo.jpg" alt="ESSU logo">
+<h1>ESSU Hall Room Event Reservation System</h1>
+<p class="sub">Secure access for managing Eastern Samar State University hall and room reservations.</p>
+<div class="points">
+<div class="point"><span class="check">✓</span><span>Users can request rooms and event schedules.</span></div>
+<div class="point"><span class="check">✓</span><span>Administrators manage and approve bookings.</span></div>
+</div>
+<div class="copyright">© 2026 Eastern Samar State University · Borongan City, Eastern Samar</div>
+</section>
+<main class="main">
+<div class="card-wrap">
+<div class="card"><div class="bar"></div><div class="inner">
+<h2 class="title">Sign In</h2>
+<p class="desc">Access the ESSU reservation management system</p>
+<div id="message" class="message"></div>
+<form id="loginForm" novalidate>
+<div class="field"><label class="label" for="username">Username <span style="color:#dc2626">*</span></label><input class="input" id="username" name="username" type="text" autocomplete="username" maxlength="50" placeholder="e.g. marias" required></div>
+<div class="field"><label class="label" for="password">Password <span style="color:#dc2626">*</span></label><div class="input-wrap"><input class="input" id="password" name="password" type="password" autocomplete="current-password" maxlength="255" placeholder="Enter your password" required><button class="eye" type="button" id="toggle" aria-label="Show password">◉</button></div></div>
+<button class="button" id="submitBtn" type="submit">Sign In</button>
+</form>
+</div></div>
+<div class="foot">© 2026 Eastern Samar State University · Borongan City, Eastern Samar</div>
+</div>
+</main>
+</div>
+<script src="./assets/js/login.js"></script>
+</body>
+</html>
